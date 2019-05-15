@@ -1,0 +1,255 @@
+body{
+font-family: Arial, Georgia, sans-serif;
+font-size: 15px;
+padding: 0;
+margin: 0;
+background-color: #f4f4f4;
+}
+.box{
+color: #5E2209;
+	background-color: #ffffff;
+	height: 100px;
+	border-bottom: #000000 5px solid;
+	border-top: #000000 5px solid;
+	border-left: #000000 5px solid;
+	text-shadow: 3px 3px #A9AD87;
+	opacity: 0.9;
+}
+.container{
+	margin: auto;
+	overflow: hidden;
+	height: 500px;
+	max-width: 800px;
+}
+/*by default ul has padding and margin */
+ul{
+margin: 0px;
+padding: 0px;
+}
+#Real h2 {
+	border: 1px solid;
+width: 42px;
+color: #CED3A5;
+box-shadow: 2px 3px #000000;
+}
+header{
+background-color: #B24010;
+color: white;
+padding-top: 15px;
+margin: 0;
+}
+header nav{
+	 float: right;
+	 margin: auto;
+}
+header li{
+float: left;
+list-style: none; /*to remove bullet points*/
+padding: 0 20px 0 20px;
+line-height: 10px;
+margin: 0px;
+}
+header a{
+color: white;
+text-decoration: none; /*to remove underline*/
+ font-size: 22px;
+float: right;
+margin: auto;
+}
+header .current a{
+color: #3D020F;
+font-weight: bold;
+}
+header a:hover{
+	color: #000000;
+	font-size: bold;
+}
+.Container input[type="text"]{
+    padding: 3px;
+    height:20px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 0px;
+}
+#button-1{
+height: 25px;
+background:#CED3A5;
+border: 0px;
+border-radius: 5px;
+color: brown;
+font-weight: bold;
+}
+
+
+
+/*-------------------for login or create account page body------------------------*/ 
+section p{
+	margin-top: 0px;
+	
+}
+section{
+	background-color: #b7925c;
+	overflow-x: hidden;
+}
+#bck{
+		background-color: #ffffff;
+		background: url(../images/bckgrnd.png) no-repeat; 
+		background-size: 78% 100%;
+		}
+#immg{
+	float: right;
+	border-radius: 40%;
+}
+#im{
+	float: right;
+}
+#email, #password{
+padding: 10px 20px 10px 10px;
+margin: 5px 0 20px 10px;
+width: 20%;
+font-size: 16px;
+border: 0px;
+}
+
+a[href="#"]{
+	color: brown;
+}
+#login, #signup{
+	display: block;
+	color: black;
+	font-weight: bold;
+padding: 7px;
+border: 1px solid #000;
+border-radius: 5px;
+margin-bottom: 39px;
+margin-left: 10px;
+font-size: 15px;
+}
+#form1 p{
+	margin-left: 10px;
+}
+label{
+	font-size: 20px;
+margin-left: 10px;
+}
+input::-webkit-input-placeholder {
+    font-size: 19px;
+    line-height: 5;
+}
+#fname,#lname,#eml,#pass,#rpass{
+padding: 10px 20px 10px 10px;
+margin: 5px 0 20px 10px;
+width: 20%;
+font-size: 16px;
+border: 0px;
+}
+
+footer{
+	margin-top: 0px;
+padding: 2px;
+color: #ffffff;
+background-color: #B24010;
+text-align: center;
+}
+
+
+@media(max-width: 768px){
+header .Container,
+header .box,
+header #Real,
+header nav,
+header nav li,
+{
+float: none;
+text-align: center;
+width: 100%;
+}
+nav li{
+     padding: 10px 70px 15px 10px;
+}
+header a{
+    font-size: 20px;
+}
+.button{
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.para p{
+    font-size: 18px;
+}
+#signin h2{
+	font-size: 15px;
+}
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 3;
+}
+label{
+	font-size: 17px;
+}
+#email, #password{
+padding: 8px 17px 8px 7px;
+margin: 5px 0 15px 10px;
+width: 20%;
+font-size: 14px;
+border: 0px;
+width: 190px;
+}
+
+#immg{
+width: 200px;
+}
+#login, #signup{
+	display: block;
+	color: black;
+	font-weight: bold;
+padding: 4px;
+border: 1px solid #000;
+border-radius: 3px;
+margin-bottom: 30px;
+margin-left: 10px;
+font-size: 13px;
+}
+.Container input[type="text"]{
+    padding: 3px;
+    height:20px;
+    width: 150px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 0px;
+}
+#bck{
+		background-color: #ffffff;
+		background: url(../images/bckgrnd.png) no-repeat; 
+		background-size: 100% 100%;
+		}
+input::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 5;
+}
+a[href="#"]{
+	color: brown;
+	font-size: 13px;
+}
+#fname,#lname,#eml,#pass,#rpass{
+padding: 8px 17px 8px 7px;
+margin: 5px 0 20px 10px;
+width: 30%;
+font-size: 13px;
+border: 0px;
+}
+#im{
+	float: right;
+	width: 90px;
+	height: 150px;
+}
+footer{
+	margin-top: 0px;
+padding: 2px;
+font-size: 10px;
+color: #ffffff;
+background-color: #B24010;
+text-align: center;
+}
+}
